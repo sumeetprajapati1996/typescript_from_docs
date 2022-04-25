@@ -1,0 +1,20 @@
+{
+  // THIS CONFIGURATION IF FOR "client_side_debugging.ts" EXAMPLE
+  // RUNS IN CHROME
+
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "C:\\Users\\praja\\Desktop\\typescript\\vs_code_docs\\DebuggingExample\\index.html",
+      "webRoot": "${workspaceFolder}",
+      "program": "${workspaceFolder}\\vs_code_docs\\DebuggingExample\\client_side_debugging.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    }
+  ]
+}
