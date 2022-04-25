@@ -1,0 +1,14 @@
+For Windows System
+
+Run build task
+- Use shortcut (Ctrl + Shift + B)
+- This compiles the project using the tsconfig.json
+- Generates a tasks.json file in .vscode directory
+
+If you see any path error in terminal while execution
+- Replace bash with cmd
+- Settings > Terminal › Integrated › Automation Profile: Windows
+- Add below code to json file
+  "terminal.integrated.automationProfile.windows": {
+    "path": "C:\\Windows\\System32\\cmd.exe"
+  }
